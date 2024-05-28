@@ -159,7 +159,7 @@ def check(username):
  	          				rest=''
  	          			hunt=(f"""
 ➣ 𓊆𝙋𝙧𝙞𝙢𝙞𝙪𝙢 𝙃𝙞𝙩 𓊇
-→→→𓆩 Sir Nawaz 𓆪‏→→→
+→→→𓆩 Sir Nawaz x Priyanshu 𓆪‏→→→
 
 
 Email : {email}@gmail.com\nRest : {rest}
