@@ -154,7 +154,7 @@ def check(username,domain):
         print(f"\033[91mEmail Not Taken : {username}@gmail.com\033[0m")
     elif "please wait" in re.text:
         print(f"\033[91m========IP Blocked : {username}@gmail.com ========\033[0m")
-        check(username,domain):
+        check(username,domain)
     else:
         pass
 
