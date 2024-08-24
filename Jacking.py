@@ -11,8 +11,8 @@ import requests
 from user_agent import generate_user_agent
 import time
 
-chat_id = "5122281931"
-token = "5812995396:AAECr7Ryf51kOOnCV30sr6rUKesUdBux1nM"
+chat_id = input("- Enter Id : ")
+token = input("- Enter Token : ")
 
 F = '\033[2;32m'
 
